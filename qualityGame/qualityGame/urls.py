@@ -20,5 +20,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', include("login.urls")),
+    path('quality-game/login/', include("login.urls")),
+    path('quality-game/main/', include("main.urls")),
 ]
